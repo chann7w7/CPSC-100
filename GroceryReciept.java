@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
- * Task 3: GroceryReciept
+ * Task 3: GroceryReciept, the code below asks you to input price of three items, then itll calculate the total price that you will pay based on the PST, GST, and loyalty discount (If you are a member or not)
  */
 
  public class GroceryReciept
@@ -55,4 +55,5 @@ import java.util.Scanner;
         System.out.print("\nPST(7%): " + pst + "CAD");
         System.out.print("\nTotal: " + total + "CAD");
     }
+
  }
